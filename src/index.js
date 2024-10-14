@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import "./styles/index.scss"
-import Timer from './components/Timer';
-import Clock from './components/Clock';
+import App from './views/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Timer/>
-    <Clock/>
+    <App/>
   </React.StrictMode>
 );
 
