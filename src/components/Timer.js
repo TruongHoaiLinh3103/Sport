@@ -18,7 +18,8 @@ const Timer = () => {
             if(number <= 0){
                 setStart(false)
             }else{
-                setStart(true)
+                setStart(true);
+                setBell(false);
             }
         }
     }
