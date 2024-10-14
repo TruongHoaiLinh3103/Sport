@@ -52,6 +52,7 @@ const Timer = () => {
             {bell ? <ReactAudioPlayer
                 src={beller}
                 autoPlay
+                controls
             />
             :
             ""}
