@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import "../styles/timer.scss"
+import "../styles/timer.scss";
+import ReactAudioPlayer from 'react-audio-player';
+import beller from "../assets/Radio/beller.mp3"
 
 const Timer = () => {
     const [number, setNumber] = useState(0);
     const [start, setStart] = useState(false);
+    const [bell, setBell] = useState(false);
     const clock = (number) => {
         let s = number%60;
         let m = Math.floor((number/60)%60);
@@ -24,7 +27,7 @@ const Timer = () => {
             clearInterval()
         }else{
             if (number === 0){
-                window.alert("Time Up!");
+                setBell(true);
                 setStart(false)
                 return;
             }
@@ -46,6 +49,12 @@ const Timer = () => {
             />
             <span>1d = 24h = 1.440m = 86.400s </span>
             <span>1h = 60m = 3.600s</span>
+            {bell ? <ReactAudioPlayer
+                src={beller}
+                autoPlay
+            />
+            :
+            ""}
         </div>
     );
 };
