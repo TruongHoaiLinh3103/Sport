@@ -19,7 +19,7 @@ const Timer = () => {
                 setStart(false)
             }else{
                 setStart(true);
-                setBell(false);
+                setBell(true);
             }
         }
     }
@@ -28,7 +28,7 @@ const Timer = () => {
             clearInterval()
         }else{
             if (number === 0){
-                setBell(true);
+                setBell(false);
                 setStart(false)
                 return;
             }
