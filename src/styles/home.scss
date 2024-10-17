@@ -1,16 +1,17 @@
-.App{
+.Home{
     width: 100%;
     display: grid;
     place-items: center;
+    padding-bottom: 160px;
 }
-.App-body{
+.Home-body{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 @media only screen and (max-width : 46.25em){
-    .App-body{
+    .Home-body{
         flex-direction: column;
     }
   }

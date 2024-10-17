@@ -1,18 +1,21 @@
-import React from 'react';
-import Timer from '../components/Timer';
-import Clock from '../components/Clock';
-import "../styles/app.scss"
-import Body from '../components/Body';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+  } from "react-router-dom";
+import Home from "../components/Home";
+import Sport from "../components/Sport";
 
 const App = () => {
     return (
-        <div className='App'>
-            <div className='App-body'>
-                <Body/>
-                <Timer/>
-            </div>
-            <Clock/>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} exact/>
+                <Route path="/parkour" element={<Sport />} />
+                <Route path="/kungfu" element={<Sport />} />
+                {/* <Route path="*" element={<NotPage />}/> */}
+            </Routes>
+        </Router>
     );
 };
 

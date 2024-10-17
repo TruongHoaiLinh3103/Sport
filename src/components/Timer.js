@@ -54,6 +54,7 @@ const Timer = () => {
                 src={beller}
                 autoPlay
                 controls
+                loop
             />
             :
             ""}
