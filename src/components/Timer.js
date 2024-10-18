@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react';
 import "../styles/timer.scss";
 import ReactAudioPlayer from 'react-audio-player';
 import beller from "../assets/Radio/beller.mp3"
-import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from "react-redux";
+import { EDIT_MIU } from '../redux/reduccer/rootSport';
 
 const Timer = () => {
     const Miu = useSelector((state) => state.sport.Miu);
+    const dispatch = useDispatch();
     const [number, setNumber] = useState(Miu ? Miu : 0);
     const [start, setStart] = useState(false);
     const [bell, setBell] = useState(false);
@@ -33,8 +35,11 @@ const Timer = () => {
         }else{
             if (number === 0){
                 setBell(false);
-                setStart(false)
-                router("/parkour")
+                setStart(false);
+                if(Miu){
+                    dispatch(EDIT_MIU(0));
+                    router("/parkour")
+                }
                 return;
             }
             var timer = setInterval(() => {
