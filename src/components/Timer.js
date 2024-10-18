@@ -2,11 +2,15 @@ import React, { useEffect, useState } from 'react';
 import "../styles/timer.scss";
 import ReactAudioPlayer from 'react-audio-player';
 import beller from "../assets/Radio/beller.mp3"
+import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 const Timer = () => {
-    const [number, setNumber] = useState(0);
+    const Miu = useSelector((state) => state.sport.Miu);
+    const [number, setNumber] = useState(Miu ? Miu : 0);
     const [start, setStart] = useState(false);
     const [bell, setBell] = useState(false);
+    const router = useNavigate();
     const clock = (number) => {
         let s = number%60;
         let m = Math.floor((number/60)%60);
@@ -30,6 +34,7 @@ const Timer = () => {
             if (number === 0){
                 setBell(false);
                 setStart(false)
+                router("/parkour")
                 return;
             }
             var timer = setInterval(() => {

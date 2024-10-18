@@ -107,7 +107,7 @@ export const PARKOUR = [
     {
         id: 21,
         name: "Bơi Xải",
-        duration: "100 Mét"
+        quantity: "100 Mét"
     },
     {
         id: 22,
