@@ -29,6 +29,10 @@ const Timer = () => {
             }
         }
     }
+    const changeTime = (e) => {
+        setNumber(e.target.value);
+        dispatch(EDIT_MIU(0));
+    }
     useEffect(() => {
         if(!start){
             clearInterval()
@@ -54,7 +58,7 @@ const Timer = () => {
         <div className='Timer'>
             <h3 style={{fontSize: "4em", color: 'white', userSelect: "none", margin: "0px"}}>{clock(number)}</h3>
             <input type="number" min="0" max="9" value={number === "" ? 0 : number} 
-                onChange={(e) => setNumber(e.target.value)}
+                onChange={(e) => changeTime(e)}
                 onKeyDown={(e) => next(e)}
                 style={{display: start ? "none" : "inline-block"}}
             />
