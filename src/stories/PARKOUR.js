@@ -6,8 +6,8 @@ export const PARKOUR = [
     },
     {
         id: 1,
-        name: "Hít Đất",
-        quantity: "100 Cái"
+        name: "Ván Nghiêng Trái Phải",
+        duration: "100 Giây"
     },
     {
         id: 2,
@@ -16,17 +16,17 @@ export const PARKOUR = [
     },
     {
         id: 3,
-        name: "Đẩy Tay Sau Trên Sàn",
+        name: "Hít Đất",
         quantity: "100 Cái"
     },
     {
         id: 4,
-        name: "Ván Nghiêng Trái Phải",
-        duration: "100 Giây"
+        name: "Xoay Tay",
+        quantity: "100 Cái"
     },
     {
         id: 5,
-        name: "Xoay Tay",
+        name: "Đẩy Tay Sau Trên Sàn",
         quantity: "100 Cái"
     },
     {
@@ -71,13 +71,13 @@ export const PARKOUR = [
     },
     {
         id: 14,
-        name: "Chùng Chân Chéo",
-        quantity: "100 Cái"
+        name: "Ngồi Dựa Tường",
+        duration: "100 Giây"
     },
     {
         id: 15,
-        name: "Ngồi Dựa Tường",
-        duration: "100 Giây"
+        name: "Căng Vai",
+        quantity: "100 Cái"
     },
     {
         id: 16,
@@ -91,7 +91,7 @@ export const PARKOUR = [
     },
     {
         id: 18,
-        name: "Căng Vai",
+        name: "Chùng Chân Chéo",
         quantity: "100 Cái"
     },
     {
@@ -148,5 +148,25 @@ export const PARKOUR = [
         id: 29,
         name: "Đu Tường",
         duration: "100 Giây"
-    }
+    },
+    {
+        id: 30,
+        name: "Trượt Tường",
+        duration: "100 Cái"
+    },
+    {
+        id: 31,
+        name: "Vung Kiếm",
+        duration: "100 Cái"
+    },
+    {
+        id: 32,
+        name: "Chịu Đựng",
+        duration: "100 Cái"
+    },
+    {
+        id: 33,
+        name: "Thiền Tọa",
+        duration: "100 Cái"
+    },
 ]

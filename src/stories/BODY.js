@@ -88,5 +88,90 @@ export const BODY = [
         id: 17,
         name: "Ngang đùi",
         quantity: "100 cái"
+    },
+    {
+        id: 18,
+        name: "Chạy đạp",
+        quantity: "100 cái"
+    },
+    {
+        id: 19,
+        name: "Đạp trước sau 2 chân",
+        quantity: "100 cái"
+    },
+    {
+        id: 20,
+        name: "Nhảy đạp 2 chân",
+        quantity: "100 cái"
+    },
+    {
+        id: 21,
+        name: "Nhảy đá 2 chân",
+        quantity: "100 cái"
+    },
+    {
+        id: 22,
+        name: "Nhảy đá ngược",
+        quantity: "100 cái"
+    },
+    {
+        id: 23,
+        name: "Nhảy đá xoay",
+        quantity: "100 cái"
+    },
+    {
+        id: 24,
+        name: "Nhảy đá xoay 2 lần",
+        quantity: "100 cái"
+    },
+    {
+        id: 25,
+        name: "Nhảy đạp",
+        quantity: "100 cái"
+    },
+    {
+        id: 26,
+        name: "Nhảy lên đùi",
+        quantity: "100 cái"
+    },
+    {
+        id: 27,
+        name: "Nhảy lên đùi ngang",
+        quantity: "100 cái"
+    },
+    {
+        id: 28,
+        name: "Nhảy chỏ chân",
+        quantity: "100 cái"
+    },
+    {
+        id: 29,
+        name: "Nhảy đạp tường xoay",
+        quantity: "100 cái"
+    },
+    {
+        id: 30,
+        name: "Nhảy bắp tay",
+        quantity: "100 cái"
+    },
+    {
+        id: 31,
+        name: "Chạy nhảy chỏ ngang",
+        quantity: "100 cái"
+    },
+    {
+        id: 32,
+        name: "Chạy nhảy đấm móc",
+        quantity: "100 cái"
+    },
+    {
+        id: 33,
+        name: "Chạy nhảy bổ cùi",
+        quantity: "100 cái"
+    },
+    {
+        id: 34,
+        name: "Chạy nhảy kẹp cổ bằng 2 chân",
+        quantity: "100 cái"
     }
 ]
