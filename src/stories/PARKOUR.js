@@ -66,38 +66,40 @@ export const PARKOUR = [
     },
     {
         id: 13,
-        name: "Bước Gập Gối",
-        quantity: "100 Cái"
-    },
-    {
-        id: 14,
-        name: "Ngồi Dựa Tường",
-        duration: "100 Giây"
-    },
-    {
-        id: 15,
         name: "Căng Vai",
         quantity: "100 Cái"
     },
     {
-        id: 16,
+        id: 14,
         name: "Nằm Duỗi Người Con Bướm",
         duration: "100 Giây"
     },
     {
-        id: 17,
+        id: 15,
+        name: "Ngồi Dựa Tường",
+        duration: "100 Giây"
+        
+    },
+    {
+        id: 16,
         name: "Trồng Chuối",
         duration: "100 Giây"
     },
     {
-        id: 18,
-        name: "Chùng Chân Chéo",
+        id: 17,
+        name: "Bước Gập Gối",
         quantity: "100 Cái"
     },
     {
-        id: 19,
+        id: 18,
         name: "Cây Cầu Mông",
         duration: "100 Giây"
+    },
+    {
+        id: 19,
+        name: "Chùng Chân Chéo",
+        quantity: "100 Cái"
+        
     },
     {
         id: 20,
@@ -152,21 +154,36 @@ export const PARKOUR = [
     {
         id: 30,
         name: "Trượt Tường",
-        duration: "100 Cái"
+        quantity: "100 Cái"
     },
     {
         id: 31,
         name: "Vung Kiếm",
-        duration: "100 Cái"
+        quantity: "100 Cái"
     },
     {
         id: 32,
         name: "Chịu Đựng",
-        duration: "100 Cái"
+        quantity: "100 Cái"
     },
     {
         id: 33,
         name: "Thiền Tọa",
-        duration: "100 Cái"
+        duration: "100 Giây"
     },
+    {
+        id: 34,
+        name: "Uốn người",
+        duration: "100 Giây"
+    },
+    {
+        id: 35,
+        name: "Nhào lộn",
+        quantity: "100 cái"
+    },
+    {
+        id: 36,
+        name: "Chạm bục xoay",
+        quantity: "100 cái"
+    }
 ]
