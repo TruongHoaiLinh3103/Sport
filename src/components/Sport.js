@@ -30,7 +30,7 @@ const Sport = () => {
                     {PARKOUR.map((item) => {
                         return(
                             <ul key={item.id} className={Parkour === item.id ? "Sport-select" : ""} onClick={() => editParkour(item)}>
-                                <li>{item.id + 1}.{item.name}</li>
+                                <li>{item.id + 1}. {item.name}</li>
                                 {item.quantity ? <span>{item.quantity}</span> : <span>{item.duration}</span>}
                             </ul>
                         )
@@ -43,7 +43,7 @@ const Sport = () => {
                     {BODY.map((item) => {
                         return(
                             <ul key={item.id} className={Body === item.id ? "Sport-select" : ""} onClick={() => editBody(item.id)}>
-                                <li>{item.id + 1}.{item.name}</li>
+                                <li>{item.id + 1}. {item.name}</li>
                                 {item.quantity ? <span>{item.quantity}</span> : <span>{item.duration}</span>}
                             </ul>
                         )
