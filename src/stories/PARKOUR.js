@@ -37,7 +37,7 @@ export const PARKOUR = [
     {
         id: 7,
         name: "Hít Xà",
-        quantity: "100 Cái"
+        quantity: "20 Cái"
     },
     {
         id: 8,
@@ -88,7 +88,7 @@ export const PARKOUR = [
     {
         id: 17,
         name: "Bước Gập Gối",
-        quantity: "100 Cái"
+        quantity: "50 Cái"
     },
     {
         id: 18,
@@ -98,7 +98,7 @@ export const PARKOUR = [
     {
         id: 19,
         name: "Chùng Chân Chéo",
-        quantity: "100 Cái"
+        quantity: "50 Cái"
         
     },
     {
@@ -114,7 +114,7 @@ export const PARKOUR = [
     {
         id: 22,
         name: "Lăn Sàn",
-        quantity: "100 Cái"
+        quantity: "10 Cái"
     },
     {
         id: 23,
@@ -134,7 +134,7 @@ export const PARKOUR = [
     {
         id: 26,
         name: "Tập Rơi",
-        quantity: "100 Cái"
+        quantity: "10 Cái"
     },
     {
         id: 27,
@@ -154,7 +154,7 @@ export const PARKOUR = [
     {
         id: 30,
         name: "Trượt Tường",
-        quantity: "100 Cái"
+        quantity: "10 Cái"
     },
     {
         id: 31,
@@ -179,11 +179,66 @@ export const PARKOUR = [
     {
         id: 35,
         name: "Nhào lộn",
-        quantity: "100 cái"
+        quantity: "10 cái"
     },
     {
         id: 36,
         name: "Chạm bục xoay",
         quantity: "100 cái"
+    },  
+    {
+        id: 37,
+        name: "Kim cang công",
+        quantity: "1 cái"
+    },
+    {
+        id: 38,
+        name: "Bục chống ngã",
+        quantity: "10 cái"
+    },
+    {
+        id: 39,
+        name: "Di chuyển con khỉ",
+        quantity: "100 cái"
+    },
+    {
+        id: 40,
+        name: "Lộn tròn xuống ván",
+        quantity: "10 cái"
+    },
+    {
+        id: 41,
+        name: "Bật lên tường",
+        quantity: "10 cái"
+    },
+    {
+        id: 42,
+        name: "Nhảy qua lại 2 bức tường",
+        quantity: "10 cái"
+    },
+    {
+        id: 43,
+        name: "Đảo hướng vượt lan can",
+        quantity: "10 cái"
+    },
+    {
+        id: 44,
+        name: "Leo tường qua lại 2 chân",
+        quantity: "10 cái"
+    },
+    {
+        id: 45,
+        name: "Đu tường bằng 2 chân",
+        quantity: "10 cái"
+    },
+    {
+        id: 46,
+        name: "Leo cây",
+        quantity: "10 cái"
+    },
+    {
+        id: 47,
+        name: "Chui người dưới chướng ngại vật",
+        quantity: "10 cái"
     }
 ]
