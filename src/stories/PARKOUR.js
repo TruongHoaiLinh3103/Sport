@@ -238,7 +238,7 @@ export const PARKOUR = [
     },
     {
         id: 47,
-        name: "Chui người dưới chướng ngại vật",
+        name: "Chui dưới chướng ngại vật",
         quantity: "10 cái"
     }
 ]
