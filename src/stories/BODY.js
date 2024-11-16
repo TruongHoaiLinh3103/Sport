@@ -173,5 +173,70 @@ export const BODY = [
         id: 34,
         name: "Chạy nhảy kẹp cổ bằng 2 chân",
         quantity: "100 cái"
+    },
+    {
+        id: 35,
+        name: "Nhảy né",
+        quantity: "100 cái"
+    },
+    {
+        id: 36,
+        name: "Trái né",
+        quantity: "100 cái"
+    },
+    {
+        id: 37,
+        name: "Phải né",
+        quantity: "100 cái"
+    },
+    {
+        id: 38,
+        name: "Lui né",
+        quantity: "100 cái"
+    },
+    {
+        id: 39,
+        name: "Khom người né",
+        quantity: "100 cái"
+    },
+    {
+        id: 40,
+        name: "Kẹp tay bằng 2 chân",
+        quantity: "100 cái"
+    },
+    {
+        id: 41,
+        name: "Kẹp cổ bằng chỏ tay",
+        quantity: "100 cái"
+    },
+    {
+        id: 42,
+        name: "Vật người bằng lưng",
+        quantity: "100 cái"
+    },
+    {
+        id: 43,
+        name: "Vật người chi trái(phải)",
+        quantity: "100 cái"
+    },
+    {
+        id: 44,
+        name: "Nằm nhảy dậy",
+        quantity: "100 cái"
+    },
+    {
+        id: 45,
+        name: "Kẹp cổ bằng 2 chân",
+        quantity: "100 cái"
+    },
+    {
+        id: 46,
+        name: "Đỡ đòn bằng cù chỏ",
+        quantity: "100 cái"
+    },
+    {
+        id: 47,
+        name: "Đá móc xuống",
+        quantity: "100 cái"
     }
 ]
