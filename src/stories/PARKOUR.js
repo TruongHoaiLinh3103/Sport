@@ -124,12 +124,12 @@ export const PARKOUR = [
     {
         id: 24,
         name: "Trườn Người",
-        quantity: "100 Cái"
+        quantity: "10 Cái"
     },
     {
         id: 25,
         name: "Bò Sát",
-        quantity: "100 Cái"
+        quantity: "10 Cái"
     },
     {
         id: 26,
@@ -139,12 +139,12 @@ export const PARKOUR = [
     {
         id: 27,
         name: "Vượt Tường",
-        quantity: "100 Cái"
+        quantity: "10 Cái"
     },
     {
         id: 28,
         name: "Nhảy Qua",
-        quantity: "100 Cái"
+        quantity: "10 Cái"
     },
     {
         id: 29,
@@ -184,7 +184,7 @@ export const PARKOUR = [
     {
         id: 36,
         name: "Chạm bục xoay",
-        quantity: "100 cái"
+        quantity: "10 cái"
     },  
     {
         id: 37,
@@ -199,7 +199,7 @@ export const PARKOUR = [
     {
         id: 39,
         name: "Di chuyển con khỉ",
-        quantity: "100 cái"
+        quantity: "10 cái"
     },
     {
         id: 40,
