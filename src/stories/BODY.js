@@ -71,7 +71,7 @@ export const BODY = [
     },
     {
         id: 14,
-        name: "Đá Ngược",
+        name: "Đá móc xuống",
         quantity: "50 cái"
     },
     {
@@ -91,7 +91,7 @@ export const BODY = [
     },
     {
         id: 18,
-        name: "Chạy đạp",
+        name: "Trái né",
         quantity: "50 cái"
     },
     {
@@ -111,12 +111,12 @@ export const BODY = [
     },
     {
         id: 22,
-        name: "Nhảy đá ngược",
+        name: "Đỡ đòn bằng bàn chân",
         quantity: "50 cái"
     },
     {
         id: 23,
-        name: "Nhảy đá xoay",
+        name: "Ngũ chi bẻ chi",
         quantity: "50 cái"
     },
     {
@@ -126,17 +126,17 @@ export const BODY = [
     },
     {
         id: 25,
-        name: "Nhảy đạp",
+        name: "Phải né",
         quantity: "50 cái"
     },
     {
         id: 26,
-        name: "Nhảy lên đùi",
+        name: "Lui né",
         quantity: "50 cái"
     },
     {
         id: 27,
-        name: "Nhảy lên đùi ngang",
+        name: "Khom người né",
         quantity: "50 cái"
     },
     {
@@ -151,92 +151,32 @@ export const BODY = [
     },
     {
         id: 30,
-        name: "Nhảy bắp tay",
+        name: "Kẹp tay bằng 2 chân",
         quantity: "50 cái"
     },
     {
         id: 31,
-        name: "Chạy nhảy chỏ ngang",
+        name: "Kẹp cổ bằng chỏ tay",
         quantity: "50 cái"
     },
     {
         id: 32,
-        name: "Chạy nhảy đấm móc",
+        name: "Vật người bằng lưng",
         quantity: "50 cái"
     },
     {
         id: 33,
-        name: "Chạy nhảy bổ cùi",
+        name: "Vật người chi trái(phải)",
         quantity: "50 cái"
     },
     {
         id: 34,
-        name: "Chạy nhảy kẹp cổ bằng 2 chân",
+        name: "Đỡ đòn bằng cù chỏ",
         quantity: "50 cái"
     },
     {
         id: 35,
         name: "Nhảy né",
-        quantity: "50 cái"
-    },
-    {
-        id: 36,
-        name: "Trái né",
-        quantity: "50 cái"
-    },
-    {
-        id: 37,
-        name: "Phải né",
-        quantity: "50 cái"
-    },
-    {
-        id: 38,
-        name: "Lui né",
-        quantity: "50 cái"
-    },
-    {
-        id: 39,
-        name: "Khom người né",
-        quantity: "50 cái"
-    },
-    {
-        id: 40,
-        name: "Kẹp tay bằng 2 chân",
-        quantity: "50 cái"
-    },
-    {
-        id: 41,
-        name: "Kẹp cổ bằng chỏ tay",
-        quantity: "50 cái"
-    },
-    {
-        id: 42,
-        name: "Vật người bằng lưng",
-        quantity: "50 cái"
-    },
-    {
-        id: 43,
-        name: "Vật người chi trái(phải)",
-        quantity: "50 cái"
-    },
-    {
-        id: 44,
-        name: "Nằm nhảy dậy",
-        quantity: "50 cái"
-    },
-    {
-        id: 45,
-        name: "Kẹp cổ bằng 2 chân",
-        quantity: "50 cái"
-    },
-    {
-        id: 46,
-        name: "Đỡ đòn bằng cù chỏ",
-        quantity: "50 cái"
-    },
-    {
-        id: 47,
-        name: "Đá móc xuống",
         quantity: "50 cái"
     }
 ]
