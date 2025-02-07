@@ -116,66 +116,36 @@ export const BODY = [
     },
     {
         id: 23,
-        name: "Ngũ chi bẻ chi",
-        quantity: "50 cái"
-    },
-    {
-        id: 24,
         name: "Nhảy đá xoay 2 lần",
         quantity: "50 cái"
     },
     {
-        id: 25,
+        id: 24,
         name: "Phải né",
         quantity: "50 cái"
     },
     {
-        id: 26,
+        id: 25,
         name: "Lui né",
         quantity: "50 cái"
     },
     {
-        id: 27,
+        id: 26,
         name: "Khom người né",
         quantity: "50 cái"
     },
     {
-        id: 28,
+        id: 27,
         name: "Nhảy chỏ chân",
         quantity: "50 cái"
     },
     {
-        id: 29,
-        name: "Nhảy đạp tường xoay",
-        quantity: "50 cái"
-    },
-    {
-        id: 30,
-        name: "Kẹp tay bằng 2 chân",
-        quantity: "50 cái"
-    },
-    {
-        id: 31,
-        name: "Kẹp cổ bằng chỏ tay",
-        quantity: "50 cái"
-    },
-    {
-        id: 32,
-        name: "Vật người bằng lưng",
-        quantity: "50 cái"
-    },
-    {
-        id: 33,
-        name: "Vật người chi trái(phải)",
-        quantity: "50 cái"
-    },
-    {
-        id: 34,
+        id: 28,
         name: "Đỡ đòn bằng cù chỏ",
         quantity: "50 cái"
     },
     {
-        id: 35,
+        id: 29,
         name: "Nhảy né",
         quantity: "50 cái"
     }
