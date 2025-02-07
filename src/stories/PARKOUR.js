@@ -51,133 +51,102 @@ export const PARKOUR = [
     },
     {
         id: 10,
-        name: "Chạy Bước Cao",
-        quantity: "100 Cái"
-    },
-    {
-        id: 11,
         name: "Leo Cây",
         quantity: "10 cái"
     },
     {
-        id: 12,
+        id: 11,
         name: "Chạy Tốc Độ",
         duration: "100 Giây"
     },
     {
-        id: 13,
+        id: 12,
         name: "Căng Vai",
         quantity: "100 Cái"
     },
     {
-        id: 14,
+        id: 13,
         name: "Nằm Duỗi Người Con Bướm",
         duration: "100 Giây"
     },
     {
-        id: 15,
+        id: 14,
         name: "Ngồi Dựa Tường",
         duration: "100 Giây"
-        
     },
     {
-        id: 16,
+        id: 15,
         name: "Trồng Chuối",
         duration: "100 Giây"
     },
     {
-        id: 17,
+        id: 16,
         name: "Bước Gập Gối",
         quantity: "50 Cái"
     },
     {
-        id: 18,
+        id: 17,
         name: "Cây Cầu Mông",
         duration: "100 Giây"
     },
     {
-        id: 19,
+        id: 18,
         name: "Chùng Chân Chéo",
         quantity: "50 Cái"
         
     },
     {
-        id: 20,
+        id: 19,
         name: "Lặn Nước",
         quantity: "100 Mét"
     },
     {
-        id: 21,
+        id: 20,
         name: "Bơi Xải",
         quantity: "100 Mét"
     },
     {
-        id: 22,
+        id: 21,
         name: "Lăn Sàn",
         quantity: "10 Cái"
     },
     {
-        id: 23,
+        id: 22,
         name: "Hít đất chân",
         quantity: "50 Cái"
     },
     {
-        id: 24,
-        name: "Trườn Người",
-        quantity: "10 Cái"
-    },
-    {
-        id: 25,
+        id: 23,
         name: "Di chuyển con khỉ",
         quantity: "10 cái"
     },
     {
-        id: 26,
+        id: 24,
         name: "Bật lên tường",
         quantity: "10 cái"
     },
     {
-        id: 27,
+        id: 25,
         name: "Vượt chướng ngại vật",
         quantity: "10 Cái"
     },
     {
-        id: 28,
-        name: "Nhảy Qua",
-        quantity: "10 Cái"
-    },
-    {
-        id: 29,
-        name: "Đu Tường",
-        duration: "100 Giây"
-    },
-    {
-        id: 30,
+        id: 26,
         name: "Trượt Tường",
         quantity: "10 Cái"
     },
     {
-        id: 31,
+        id: 27,
         name: "Vung Kiếm",
         quantity: "100 Cái"
     },
     {
-        id: 32,
+        id: 28,
         name: "Chịu Đựng",
         quantity: "100 Cái"
     },
     {
-        id: 33,
-        name: "Kim cang công",
-        quantity: "1 cái"
-    },
-    {
-        id: 34,
-        name: "Bục chống ngã",
-        quantity: "10 cái"
-    },
-    {
-        id: 35,
+        id: 29,
         name: "Đảo hướng vượt lan can",
         quantity: "10 cái"
     }
